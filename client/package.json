@@ -7,11 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite build --preview"
   },
   "dependencies": {
-    "@clerk/clerk-react": "^5.42.1",
+    "@clerk/clerk-react": "^5.43.1",
+    "@google-cloud/local-auth": "^3.0.0",
     "@tailwindcss/vite": "^4.1.12",
+    "axios": "^1.11.0",
     "crypto-browserify": "^3.12.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

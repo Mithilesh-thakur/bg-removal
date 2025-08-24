@@ -13,7 +13,6 @@ const Home = () => {
       <BgSlider />
       <Testimonals />
       <Upload />
-      
     </div>
   )
 }
